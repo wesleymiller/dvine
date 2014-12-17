@@ -1,0 +1,74 @@
+/*   
+Theme Name: dvine
+Theme URI: http://wordpress.wesleymiller.com/dvine/
+Description: A blog theme based on the divine proportion.
+Author: Wesley Miller
+Author URI: http://wesleymiller.com/
+Template: mammoth
+Version: 1.0
+*/
+
+* a {color:inherit;}
+a:link {color:#000;}
+a:visited {color:#666;}
+a:hover,
+a:active {background:#ccc;}
+body {color:#000;font:100% sans-serif;padding:1.62%;}
+h1 {font-size:4.25em;line-height:162%;}
+h2 {font-size:2.62em;line-height:162%;}
+h3 {font-size:1.62em;line-height:162%;}
+h4 {font-size:1em;line-height:162%;}
+h5 {font-size:.62em;line-height:162%;}
+img {max-width:100%;}
+li, .tagcloud, .post-content, .post-summary, .post-title {line-height:162%;}
+.container {margin:0 auto;}
+header, .post, .widget {padding:1.62% 0;}
+.title, .description {border-bottom:1px solid #dedede;padding-bottom:1.62%;}
+.title a:link, .title a:visited {color:#777;font-size:.625em;text-decoration:none;}
+.title a:hover, .title a:active {background:#dedede;}
+.headerimg {margin:1.62% 0;}
+.headerimg img {width:100%;}
+.description {font-size:4.25em;font-weight:bold;line-height:162%;margin:1.62% 0;}
+#menu-navigation {border-bottom:1px solid #dedede;font-size:1em;margin:0;padding:1.62% 0;width:100%;}
+#menu-navigation .menu-item {background:#fff;float:left;list-style-type:none;position:relative;text-align:center;width:10%;}
+#menu-navigation .menu-item .sub-menu {display:none;float:none;left:0;margin:0;padding:0;position:absolute;z-index:99;}
+#menu-navigation .menu-item .sub-menu .menu-item {display:block;width:100%;}
+#menu-navigation .menu-item a {border:1px solid #dedede;display:block;line-height:1.62em;padding:6.2% 0.62%;text-decoration:none;}
+#menu-navigation:after {clear:both;content:".";display:block;height:0;visibility:hidden;}
+.main {clear:both;}
+.content {float:left;width:62%;}
+.post-title a, .page-title a {background:#fff;color:#777;text-decoration:none;}
+.post-content embed {max-width:100% !important;}
+article h1, article h2, article h3, article h4, article h5, article h6 {color:#777;}
+.post {margin:1.62 0%;}
+.page-title {font-size:1.688em;line-height:162%;}
+.comments-list ol li {list-style-type:none;}
+.comment {background:#eee;margin:1.62%;padding:1.62%;}
+.comment-author, .comment-meta {font-size:.62em;}
+.sidebar {border-left:1px solid #dedede;font-size:.62em;float:right;margin:1.62%;padding:1.62%;width:30%;}
+.post-meta, .post-info, footer {font-size:.625em;}
+.post-nav {clear:both;overflow:hidden;margin:6.2% 0;padding:1.62% 0;}
+.post-nav a {text-decoration:none;}
+.post-nav .previous {float:left;width:50%;}
+.post-nav .next {float:right;text-align:right;width:50%;}
+footer {clear:both;padding:1.62% 0;text-align:center;width:62%;}
+.alignleft, img.alignleft {display:inline;float:left;margin:0 10px 10px 0;}
+.alignright, img.alignright {display:inline;float:right;margin:0 0 10px 10px;}
+.aligncenter, img.aligncenter {clear:both;display:block;margin:5px auto;}
+.wp-caption {text-align:center;}
+.wp-caption img {border:0 none;margin:0;padding:0;}
+.wp-caption p.wp-caption-text {font-size:.85em;margin:0;}
+.wp-smiley {max-height:1em;margin:0 !important;}
+.gallery-caption {font-size:.85em;margin:5px 0 0 0;}
+.gallery {margin:20px auto;overflow:hidden;width:100%;}
+.gallery .gallery-item {float:left;text-align:center;}
+.gallery-item a img {max-width:100% !important;}
+.gallery-columns-2 .gallery-item {margin:1%;width:48%;}
+.gallery-columns-3 .gallery-item {margin:1%;width:31.33%;}
+.gallery-columns-4 .gallery-item {margin:1%;width:23%;}
+.gallery-columns-5 .gallery-item {margin:1%;width:18%;}
+.gallery-columns-6 .gallery-item {margin:1%;width:14.66%;}
+.gallery-columns-7 .gallery-item {margin:1%;width:12.2%;}
+.gallery-columns-8 .gallery-item {margin:1%;width:10.5%;}
+.gallery-columns-9 .gallery-item {margin:1%;width:9.11%;}
+#wp-calendar {margin:20px auto;max-width:200px;text-align:center;width:75%;}
